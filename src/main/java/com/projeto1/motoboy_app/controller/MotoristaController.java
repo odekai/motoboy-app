@@ -15,8 +15,8 @@ public class MotoristaController {
     @GetMapping("/listar")
     public ResponseEntity<List<Motoboy>> listar(){
         Motoboy motoboy1 = new Motoboy();
-        motoboy1.nome="pedro";
-        motoboy1.placa="12313dw";
+        motoboy1.setNome("felipe");
+        motoboy1.setPlaca("2192f");
 
         List<Motoboy> lista = new ArrayList<>();
         lista.add(motoboy1);
